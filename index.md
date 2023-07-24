@@ -1,5 +1,5 @@
 ---
-title: Beyond the IDE: Exploring the World as a Developer
+title: Beyond the IDE - Exploring the World as a Developer
 ---
 
 Baljeet Singh Dhanoa's Personal Blog
