@@ -3,25 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <title>Important Topics of Node.js for MERN Stack Development</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      padding: 0;
+    }
+
+    h1 {
+      color: #0088cc;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    ol {
+      margin-left: 30px;
+    }
+
+    pre {
+      background-color: #f6f8fa;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+
+    code {
+      color: #c7254e;
+    }
+  </style>
 </head>
 <body>
   <h1>Important Topics of Node.js for MERN Stack Development</h1>
-  <p>As an engineer looking to build great applications using the MERN stack (MongoDB, Express.js, React, Node.js), there are several important topics related to Node.js that you should be familiar with:</p>
+  <p>As a senior software engineer looking to build great applications using the MERN stack (MongoDB, Express.js, React, Node.js), there are several important topics related to Node.js that you should be familiar with:</p>
   <ol>
-    <li>Asynchronous Programming:</li>
-    <p>Using async/await to perform asynchronous operations:</p>
-    <pre><code>
-async function fetchData() {
-  try {
-    const data = await fetch('https://api.example.com/data');
-    const json = await data.json();
-    console.log(json);
-  } catch (error) {
-    console.error('Error fetching data:', error);
-  }
-}
-    </code></pre>
-    <p>Implications: Using async/await makes asynchronous code more readable and manageable. However, it's essential to handle errors properly, as any uncaught exception within the async function can lead to unhandled promise rejections.</p>
+    <li>
+      <strong>Asynchronous Programming:</strong>
+      <p>Using async/await to perform asynchronous operations:</p>
+      <pre><code>
+        async function fetchData() {
+          try {
+            const data = await fetch('https://api.example.com/data');
+            const json = await data.json();
+            console.log(json);
+          } catch (error) {
+            console.error('Error fetching data:', error);
+          }
+        }
+      </code></pre>
+      <p><strong>Implications:</strong> Using async/await makes asynchronous code more readable and manageable. However, it's essential to handle errors properly, as any uncaught exception within the async function can lead to unhandled promise rejections.</p>
+    </li>
     <!-- Continue with other topics and examples here -->
   </ol>
 </body>
